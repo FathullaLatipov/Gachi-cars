@@ -119,13 +119,15 @@ h6,
 
 .page-header {
     height: 400px;
-    margin-bottom: 90px;
+    margin-bottom: 30px;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background: linear-gradient(rgba(28, 30, 50, .9), rgba(28, 30, 50, .9)), url(../img/bg-banner.jpg);
+    background: linear-gradient(rgba(28, 30, 50, .9), rgba(28, 30, 50, .9)), url(../img/carousel3.jpeg);
     background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
 }
 
 @media (max-width: 991.98px) {
